@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/91073a10c9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>kilogram to kg convert</title>
+    <style>
+      #preloader{
+        background-image: url(./infinite-gif-preloader.gif);
+
+      }
+      #section{
+        background-image: url(./banner-7\ \(1\).jpg);
+        background-position: center;
+        background-size: cover;
+
+      }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-cyan-900 to-sky-950"> 
+  <div id="preloader" class="bg-black h-[100vh] w-[100%] fixed z-50 bg-no-repeat  bg-center">
+    
+  </div>
+    <header>
+<nav class="flex justify-between items-center px-40 py-4 shadow-lg">
+   <div>
+    <h1 class="text-lg font-semibold text-white">পরিমাপ</h1>
+</div>
+<div>
+    <button class="text-white px-6 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full font-medium text-lg hover:bg-gradient-to-r hoverfrom-cyan-600 hover:to-blue-100">লগইন</button>
+</div>
+    
+</nav>
+    </header>
+    <main>
+        <section class="mt-16 max-w-6xl mx-auto p-6">
+            <h1 class="text-center font-bold text-3xl text-white mb-10">এখানে আমরা সকল প্রকার <br> পরিমাপ সম্পর্কে জানবো</h1>
+            <div class="container grid grid-cols-1  lg:grid-cols-3 gap-10 ">
+                <div class="card bg-base-100 shadow-xl duration-300 hover:scale-105">
+                    <figure class="px-10 pt-10">
+                     
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">সেন্টিমিটার থেকে ইঞ্চি</h2>
+                      <p>সেন্টিমিটার</p>
+                      <input id="text-field" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-4" />
+                      <p>ইঞ্চি</p>
+                      <hr class=" border w-2/5  border-orange-200 ">
+                      <h1 class="w-full px-2 py-2 font-semibold text-lg"><span id="inches-field"></span></h1>
+                      <div class="card-actions">
+                        <button id="btn-first" class="btn btn-primary">Convert</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl duration-300 hover:scale-105">
+                    <figure class="px-10 pt-10">
+                     
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">ইঞ্চি থেকে সেন্টিমিটার</h2>
+                      <p>ইঞ্চি</p>
+                      <input id="text-field2" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-4" />
+                      <p>সেন্টিমিটার</p>
+                      <hr class=" border w-2/5  border-orange-200 ">
+                      <h1 class="w-full px-2 py-2 font-semibold text-lg"><span id="inches-field2"></span></h1>
+                      <div class="card-actions">
+                        <button id="btn-first2" class="btn btn-primary">Convert</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl duration-300 hover:scale-105">
+                    <figure class="px-10 pt-10">
+                     
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">মিলিমিটার থেকে ইঞ্চি</h2>
+                      <p>মিলিমিটার</p>
+                      <input id="text-field3" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-4" />
+                      <p>ইঞ্চি</p>
+                      <hr class=" border w-2/5  border-orange-200 ">
+                      <h1 class="w-full px-2 py-2 font-semibold text-lg"><span id="inches-field3"></span></h1>
+                      <div class="card-actions">
+                        <button id="btn-first3" class="btn btn-primary">Convert</button>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  <div class="card bg-base-100 shadow-xl duration-300 hover:scale-105">
+                    <figure class="px-10 pt-10">
+                     
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">সেন্টিমিটার থেকে ইঞ্চি</h2>
+                      <p>সেন্টিমিটার</p>
+                      <input id="text-field" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-4" />
+                      <p>ইঞ্চি</p>
+                      <hr class=" border w-2/5  border-orange-200 ">
+                      <h1 class="w-full px-2 py-2 font-semibold text-lg"><span id="inches-field"></span></h1>
+                      <div class="card-actions">
+                        <button id="btn-first" class="btn btn-primary">Convert</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl duration-300 hover:scale-105">
+                    <figure class="px-10 pt-10">
+                     
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">সেন্টিমিটার থেকে ইঞ্চি</h2>
+                      <p>সেন্টিমিটার</p>
+                      <input id="text-field" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-4" />
+                      <p>ইঞ্চি</p>
+                      <hr class=" border w-2/5  border-orange-200 ">
+                      <h1 class="w-full px-2 py-2 font-semibold text-lg"><span id="inches-field"></span></h1>
+                      <div class="card-actions">
+                        <button id="btn-first" class="btn btn-primary">Convert</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl duration-300 hover:scale-105">
+                    <figure class="px-10 pt-10">
+                     
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">সেন্টিমিটার থেকে ইঞ্চি</h2>
+                      <p>সেন্টিমিটার</p>
+                      <input id="text-field" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-4" />
+                      <p>ইঞ্চি</p>
+                      <hr class=" border w-2/5  border-orange-200 ">
+                      <h1 class="w-full px-2 py-2 font-semibold text-lg"><span id="inches-field"></span></h1>
+                      <div class="card-actions">
+                        <button id="btn-first" class="btn btn-primary">Convert</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl duration-300 hover:scale-105">
+                    <figure class="px-10 pt-10">
+                     
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">সেন্টিমিটার থেকে ইঞ্চি</h2>
+                      <p>সেন্টিমিটার</p>
+                      <input id="text-field" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-4" />
+                      <p>ইঞ্চি</p>
+                      <hr class=" border w-2/5  border-orange-200 ">
+                      <h1 class="w-full px-2 py-2 font-semibold text-lg"><span id="inches-field"></span></h1>
+                      <div class="card-actions">
+                        <button id="btn-first" class="btn btn-primary">Convert</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl duration-300 hover:scale-105">
+                    <figure class="px-10 pt-10">
+                     
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">সেন্টিমিটার থেকে ইঞ্চি</h2>
+                      <p>সেন্টিমিটার</p>
+                      <input id="text-field" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-4" />
+                      <p>ইঞ্চি</p>
+                      <hr class=" border w-2/5  border-orange-200 ">
+                      <h1 class="w-full px-2 py-2 font-semibold text-lg"><span id="inches-field"></span></h1>
+                      <div class="card-actions">
+                        <button id="btn-first" class="btn btn-primary">Convert</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl duration-300 hover:scale-105">
+                    <figure class="px-10 pt-10">
+                     
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">সেন্টিমিটার থেকে ইঞ্চি</h2>
+                      <p>সেন্টিমিটার</p>
+                      <input id="text-field" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-4" />
+                      <p>ইঞ্চি</p>
+                      <hr class=" border w-2/5  border-orange-200 ">
+                      <h1 class="w-full px-2 py-2 font-semibold text-lg"><span id="inches-field"></span></h1>
+                      <div class="card-actions">
+                        <button id="btn-first" class="btn btn-primary">Convert</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl duration-300 hover:scale-105">
+                    <figure class="px-10 pt-10">
+                     
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">সেন্টিমিটার থেকে ইঞ্চি</h2>
+                      <p>সেন্টিমিটার</p>
+                      <input id="text-field" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-4" />
+                      <p>ইঞ্চি</p>
+                      <hr class=" border w-2/5  border-orange-200 ">
+                      <h1 class="w-full px-2 py-2 font-semibold text-lg"><span id="inches-field"></span></h1>
+                      <div class="card-actions">
+                        <button id="btn-first" class="btn btn-primary">Convert</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl duration-300 hover:scale-105">
+                    <figure class="px-10 pt-10">
+                     
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">সেন্টিমিটার থেকে ইঞ্চি</h2>
+                      <p>সেন্টিমিটার</p>
+                      <input id="text-field" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-4" />
+                      <p>ইঞ্চি</p>
+                      <hr class=" border w-2/5  border-orange-200 ">
+                      <h1 class="w-full px-2 py-2 font-semibold text-lg"><span id="inches-field"></span></h1>
+                      <div class="card-actions">
+                        <button id="btn-first" class="btn btn-primary">Convert</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 shadow-xl duration-300 hover:scale-105">
+                    <figure class="px-10 pt-10">
+                     
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">সেন্টিমিটার থেকে ইঞ্চি</h2>
+                      <p>সেন্টিমিটার</p>
+                      <input id="text-field" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs mb-4" />
+                      <p>ইঞ্চি</p>
+                      <hr class=" border w-2/5  border-orange-200 ">
+                      <h1 class="w-full px-2 py-2 font-semibold text-lg"><span id="inches-field"></span></h1>
+                      <div class="card-actions">
+                        <button id="btn-first" class="btn btn-primary">Convert</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section id="section" class="max-w-6xl mt-10 mx-auto mb-10 h-[300px] rounded-md px-4 lg:px-16 py-24">
+<div class="container grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-2 lg:gap-24">
+  <div class="">
+    <h1 class="text-sm text-white font-serif">Let’s Explore the World</h1>
+  <h4 class=" text-lg lg:text-4xl font-bold text-white">Get Special Offers in <br> Your Inbox</h4>
+  </div>
+  <div class="bg-white w-[350px] flex justify-between items-center px-4 py-2 rounded-sm">
+    <input class="outline-none" type="text" placeholder="submit your email">
+    <i class="fa-regular fa-paper-plane text-orange-500 text-3xl"></i>
+  </div>
+</div>
+
+        </section>
+        
+    </main>
+    <footer>
+      <footer class="footer p-10 bg-gray-200 text-base-content">
+        <nav>
+          <h6 class="footer-title">Services</h6> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Company</h6> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Legal</h6> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav> 
+        <form>
+          <h6 class="footer-title">Newsletter</h6> 
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label> 
+            <div class="join">
+              <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+              <button class="btn btn-primary join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
+    </footer>
+    
+    <script src="./mm-inchs.js"></script>
+    <script src="./inches-to-cm.js"></script>
+    <script src="./kilo.js"></script>
+    <script>
+      var loader = document.getElementById('preloader');
+    window.addEventListener('load', function(){
+      loader.style.display = "none";
+    })
+    </script>
+</body>
+</html>
